@@ -1,0 +1,9 @@
+{{define "document"}}
+<document>
+  <loadingTemplate>
+    <activityIndicator>
+      <text>Loading...</text>
+    </activityIndicator>
+  </loadingTemplate>
+</document>
+{{end}}

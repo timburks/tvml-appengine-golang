@@ -1,0 +1,14 @@
+{{define "document"}}
+<document>
+  <menuBarTemplate>
+    <menuBar>
+      <menuItem onSelect="pushDocument('parade')" presentation="menuBarItemPresenter">
+        <title>Tab 1</title>
+      </menuItem>
+      <menuItem onSelect="pushDocument('catalog')" presentation="menuBarItemPresenter">
+        <title>Tab 2</title>
+      </menuItem>
+    </menuBar>
+  </menuBarTemplate>
+</document>
+{{end}}
